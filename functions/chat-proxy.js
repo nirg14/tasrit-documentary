@@ -15,7 +15,7 @@ const CONFIG = {
     maxRequestsPerMinute: 10,
     maxMessageLength: 2000,
     maxMessagesPerRequest: 50,
-    claudeModel: 'claude-3-5-sonnet-20240620',
+    claudeModel: 'claude-3-opus-20240229',
     maxTokens: 2000
 };
 
