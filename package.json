@@ -1,0 +1,34 @@
+{
+  "name": "tasrit-documentary-project",
+  "version": "1.0.0",
+  "description": "Holocaust Survivor Documentary - 48 Animated Segments with AI Prompt Workshop",
+  "main": "index.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "netlify deploy --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/Tasrit_Documentary_Project.git"
+  },
+  "keywords": [
+    "documentary",
+    "holocaust",
+    "animation",
+    "midjourney",
+    "ai",
+    "prompt-engineering"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
