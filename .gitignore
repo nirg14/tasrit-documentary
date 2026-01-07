@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+.Python
+
+# Project specific
+*.md.backup
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Don't track parent directory files
+../*
+!../Tasrit_Documentary_Project/

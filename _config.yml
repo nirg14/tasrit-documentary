@@ -1,0 +1,47 @@
+# GitHub Pages Configuration for Tasrit Documentary Project
+
+# Site settings
+title: Tasrit Documentary Project
+description: A Holocaust Survivor's Journey - 48 Animated Segments
+author: Nir Gottlieb
+url: ""
+baseurl: ""
+
+# Theme
+theme: null
+
+# Exclude from processing
+exclude:
+  - node_modules/
+  - vendor/
+  - .DS_Store
+  - "*.py"
+  - "*.pyc"
+  - __pycache__/
+  - venv/
+  - .git/
+  - .gitignore
+  - README.md
+
+# Include files
+include:
+  - _config.yml
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Collections (if needed for future expansion)
+collections:
+  sertons:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
