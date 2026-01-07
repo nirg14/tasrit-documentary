@@ -1,6 +1,9 @@
 # Netlify Configuration for Tasrit Documentary Project
 
 [build]
+  # Build command (empty for static site - no build needed)
+  command = ""
+
   # Publish directory (root of static site)
   publish = "."
 
